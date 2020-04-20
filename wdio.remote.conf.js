@@ -7,7 +7,7 @@ exports.config = Object.assign(base.config, {
     maxInstances: 1,
 
     capabilities: [{
-        maxInstances: ,
+        maxInstances: 1,
         acceptInsecureCerts: true,
         browserName: 'chrome',
         'goog:chromeOptions': {
